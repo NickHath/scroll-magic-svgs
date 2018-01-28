@@ -7,9 +7,6 @@ $(document).ready(function() {
     // triggerHook: 1,
     duration: $('.box').height()
   })
-  .addIndicators({
-    name: 'red alert',
-  }) 
   .setTween(TweenMax.to('.box', 1.5, {
     backgroundColor: 'red'
   }))
@@ -17,12 +14,13 @@ $(document).ready(function() {
 
   var svgDrawing = new ScrollMagic.Scene({
     triggerElement: '.line',
+    // modify duration to be shorter than line height and the lines will be further down screen
     duration: $('.line').height(),
     triggerHook: 0
   })
-  .addIndicators({
-    name: 'line drawing',
-  }) 
+  // .addIndicators({
+  //   name: 'line drawing',
+  // }) 
   .setTween(TweenMax.to('path', 1.5, {
     // 'stroke-dasharray': '0',
     'stroke-dashoffset': '0'

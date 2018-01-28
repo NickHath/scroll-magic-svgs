@@ -11,8 +11,9 @@ html, body {
   background-color: red;
 }
 
-/* set up for example 1 */
+/* set up for 295mm height */
 path {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
 }
+
