@@ -1,3 +1,5 @@
+html, body {
+}
 .box {
   width: 200px;
   height: 400px;
@@ -8,6 +10,8 @@
 .red-alert {
   background-color: red;
 }
+
+/* set up for example 1 */
 path {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;

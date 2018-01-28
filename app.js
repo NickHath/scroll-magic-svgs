@@ -29,4 +29,18 @@ $(document).ready(function() {
   }))
   .addTo(controller);
 
+  // var jaggedsSvgDrawing = new ScrollMagic.Scene({
+  //   triggerElement: '.line',
+  //   duration: $('.line').height(),
+  //   triggerHook: 0
+  // })
+  // .addIndicators({
+  //   name: 'line drawing 2',
+  // }) 
+  // .setTween(TweenMax.to('path', 1.5, {
+  //   // 'stroke-dasharray': '0',
+  //   'stroke-dashoffset': '0'
+  // }))
+  // .addTo(controller);
+
 })
